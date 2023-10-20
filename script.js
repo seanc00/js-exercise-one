@@ -9,8 +9,31 @@
 
 */
 
-function promptUser() {
-  let userInput = prompt("Enter a positive number: ")
+function promptUser(question) {
+
+  if (question = "P1") {
+    let count = 0;
+    let sum = 0;
+
+    while (count < 5) {
+      let userInput = parseInt(prompt("Enter a positive integer: "));
+      if (userInput < 0 || userInput === "") {
+        alert("Please insert a positive number.")
+      } else if ( userInput >= 0) {
+        count++;
+        sum = sum + userInput;
+      }
+    }
+
+    let element = document.getElementById('sum');
+    element.innerHTML = sum;
+
+    console.log(count);
+    console.log(sum);
+
+  }
+
+
 }
 
 
