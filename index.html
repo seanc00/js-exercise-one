@@ -25,8 +25,8 @@
           </p>
         </div>
         <div class="activateLoopBtns">
-          <button onclick="">Enable while loop</button>
-          <button onclick="">Disable while loop</button>
+          <button onclick="activateWhileLoop('q1');">Enable while loop</button>
+          <button onclick="deactivateWhileLoop('q1')">Disable while loop</button>
         </div>
         <div class="formContainer">
           <form>
@@ -38,7 +38,7 @@
         </div>
         <div class="statsContainer">
           <p class="sumOfNumbers">Sum: <span class="sum" id="sum">0</span></p>
-          <p>While Loop = <span class="loopStatus">False</span></p>
+          <p>While Loop = <span class="loopStatusOff" id="loopStatus">OFF</span></p>
         </div>
       </div>
       <div>
