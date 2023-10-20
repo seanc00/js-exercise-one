@@ -10,11 +10,11 @@
   </head>
   <body>
 
-    <div class="container">
-      <div>
+    <div class="bigContainer">
+      <div class="container">
         <div class="header">
           <h1>Question 1.1</h1>
-          <p>
+          <p class="taskDesc">
             Task: Write a program that begins by prompting the user 
             to type in a positive integer (lets call it ). If the 
             number typed () is not positive (i.e. bigger than zero) 
@@ -24,24 +24,22 @@
             should print the sum of these numbers. 
           </p>
         </div>
-        <div class="activateLoopBtns">
-          <button onclick="activateWhileLoop('q1');">Enable while loop</button>
-          <button onclick="deactivateWhileLoop('q1')">Disable while loop</button>
-        </div>
-        <div class="formContainer">
-          <form>
-            <label for="userInput">Enter a number (Positives only):</label><br>
-            <input type="number" id="userInput" name="userInput"><br><br>
-            <input type="button" value="Submit" onclick="addNumber()">
-            <input type="button" value="Reset">
-          </form>
-        </div>
-        <div class="statsContainer">
-          <p class="sumOfNumbers">Sum: <span class="sum" id="sum">0</span></p>
-          <p>While Loop = <span class="loopStatusOff" id="loopStatus">OFF</span></p>
+        <div class="taskContainer">
+          <div class="taskObjective">
+            <h3>What will happen</h3>
+            <p>Will ask you to input a number 5 times, using a while loop</p>
+          </div>
+          <div>
+            <button onclick="promptUser();">Press to enter a number</button>
+          </div>
+          <div class="stats">
+            <p>Sum: <span class="sum" id="sum">0</span></p>
+            <p>Iterations: <span class="count" id="count">0</span></p>
+          </div>
+
         </div>
       </div>
-      <div>
+      <div class="container">
         <div class="header">
           <h1>Question 1.2</h1>
           <p>
@@ -50,16 +48,11 @@
             of their sum. 
           </p>
         </div>
-        <div class="formContainer">
-          <form>
-            <label for="userInput">Enter a number:</label><br>
-            <input type="number" id="userInput" name="userInput"><br><br>
-            <input type="submit" value="Submit">
-            <input type="button" value="Reset">
-          </form>
+        <div class="taskContainer">
+
         </div>
       </div>
-      <div>
+      <div class="container">
         <div class="header">
           <h1>Question 1.3</h1>
           <p>
@@ -67,15 +60,11 @@
             maximum and the sum of the numbers typed in. 
           </p>
         </div>
-        <div class="formContainer">
-          <form>
-            <label for="userInput">Enter a number:</label><br>
-            <input type="number" id="userInput" name="userInput"><br><br>
-            <input type="submit" value="Submit">
-            <input type="button" value="Reset">
-          </form>
+        <div class="taskContainer">
+
         </div>
       </div>
+
       
     </div>
 

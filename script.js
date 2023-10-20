@@ -1,15 +1,68 @@
-let sum = 0;
-loopOne = "False";
-loopTwo = "False";
-loopThree = "False";
+/*
 
-function addNumber() {
-  let userValue = parseInt(document.getElementById("userInput").value);
-  sum = sum + userValue;
+1. click button to activate while loop
+2. prompt user
+3. user inputs number
+4. if number > 0, add to sum
+5. dynamically change sum
+6. repeat 2-5, 5 times
 
-  console.log(sum);  
+*/
+
+function promptUser() {
+  let userInput = prompt("Enter a positive number: ")
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let sum = 0;
+let loopOne = "False";
+let loopTwo = "False";
+let loopThree = "False";
+let count = 0;
+
+function loopActive() {
+  if (loopOne === "false") {
+    alert("Must Enable loop to enter numbers.")
+  } else if (loopOne === "True") {
+      while (loopOne === "True" && count <= 5) {
+        addNumber();
+      }
+  }
+}
+
+function addNumber() {
+  let userInput = prompt("Enter a positive number: ");
+  if (userInput < 0) {
+    alert("Only enter positive numbers.");
+    userInput = prompt
+  }
+  // let userValue = parseInt(document.getElementById("userInput").value);
+  // count++;
+  // if (userValue < 0 ) {
+  //   alert("Enter a positive integer only.");
+  // } else if (userValue >= 0) {
+  //   sum = sum + userValue;
+  // }
+  // console.log(sum);
+}
+
+/*
 // Code that activates while loops for all questions
 function activateWhileLoop(loopType) {
   // change class and text to indicate to use loop is active
@@ -30,6 +83,7 @@ function activateWhileLoop(loopType) {
     console.log(loopThree);
   }
 }
+
 function deactivateWhileLoop(loopType) {
     // change class and text to indicate to use loop is active
     let element = document.getElementById('loopStatus');
@@ -48,4 +102,4 @@ function deactivateWhileLoop(loopType) {
     console.log(loopThree);
   }
   
-}
+} */
