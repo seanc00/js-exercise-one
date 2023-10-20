@@ -24,16 +24,21 @@
             should print the sum of these numbers. 
           </p>
         </div>
+        <div class="activateLoopBtns">
+          <button onclick="">Enable while loop</button>
+          <button onclick="">Disable while loop</button>
+        </div>
         <div class="formContainer">
           <form>
             <label for="userInput">Enter a number (Positives only):</label><br>
             <input type="number" id="userInput" name="userInput"><br><br>
-            <input type="submit" value="Submit">
+            <input type="button" value="Submit" onclick="addNumber()">
             <input type="button" value="Reset">
           </form>
         </div>
         <div class="statsContainer">
           <p class="sumOfNumbers">Sum: <span class="sum" id="sum">0</span></p>
+          <p>While Loop = <span class="loopStatus">False</span></p>
         </div>
       </div>
       <div>
