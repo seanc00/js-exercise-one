@@ -80,3 +80,27 @@ button {
 .taskObjective > p {
   width: 500px;
 }
+
+.showQuestionBtns {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.showQuestionBtns > button {
+  border: solid black 5px;
+  width: 400px;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: 300ms;
+
+
+}
+.showQuestionBtns > button:hover {
+  border-width: 8px;
+}
+.showQuestionBtns > button:active {
+  border-color: white;
+  background-color: black;
+  color: white;
+
+}
