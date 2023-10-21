@@ -10,71 +10,92 @@
   </head>
   <body>
 
-    <div class="bigContainer">
-      <div class="container">
-        <div class="header">
-          <h1>Question 1.1</h1>
-          <p class="taskDesc">
-            Task: Write a program that begins by prompting the user 
-            to type in a positive integer (lets call it ). If the 
-            number typed () is not positive (i.e. bigger than zero) 
-            than it should ask again. After this the program should 
-            repeatedly ask the user to type in an integer, until 
-            numbers have been typed in. After this the program 
-            should print the sum of these numbers. 
-          </p>
-        </div>
-        <div class="taskContainer">
-          <div class="taskObjective">
-            <h3>What will happen</h3>
-            <p>Will ask you to input a number 5 times, using a while loop and display sum of all numbers</p>
-          </div>
-          <div>
-            <button onclick="promptUser('P1');">Press to enter a number</button>
-          </div>
-          <div class="stats">
-            <p>Sum: <span class="sum" id="sum">0</span></p>
-          </div>
+    <div class="biggestContainer">
 
-        </div>
-      </div>
-      <div class="container">
-        <div class="header">
-          <h1>Question 1.2</h1>
-          <p>
-            Task: Write a program (similar to the one above) that prints 
-            the maximum (largest) of the numbers typed in, instead 
-            of their sum. 
-          </p>
-        </div>
-        <div class="taskContainer">
-          <div class="taskObjective">
-            <h3>What will happen</h3>
-            <p>Will ask you to input a number 5 times, using a while loop, then displays the highest number</p>
-          </div>
-          <div>
-            <button onclick="promptUserP2();">Press to enter a number</button>
-          </div>
-          <div class="stats">
-            <p>Sum: <span class="sum" id="sum">0</span></p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="header">
-          <h1>Question 1.3</h1>
-          <p>
-            Task: Write a program (similar to the above) that prints the 
-            maximum and the sum of the numbers typed in. 
-          </p>
-        </div>
-        <div class="taskContainer">
-
-        </div>
+      <div class="showQuestionBtns">
+        <button onclick="showQuestOne();">Show Question 1</button>
+        <button onclick="showQuestTwo();">Show Question 2</button>
       </div>
 
-      
+      <div class="bigContainer" id="bigContainer">
+        <div class="container">
+          <div class="header">
+            <h1>Question 1.1 (WHILE LOOP)</h1>
+            <p class="taskDesc">
+              Task: Write a program that begins by prompting the user 
+              to type in a positive integer (lets call it ). If the 
+              number typed () is not positive (i.e. bigger than zero) 
+              than it should ask again. After this the program should 
+              repeatedly ask the user to type in an integer, until 
+              numbers have been typed in. After this the program 
+              should print the sum of these numbers. 
+            </p>
+          </div>
+          <div class="taskContainer">
+            <div class="taskObjective">
+              <h3>What will happen</h3>
+              <p>Will ask you to input a number 5 times, using a while loop and display sum of all numbers</p>
+            </div>
+            <div>
+              <button onclick="promptUser('P1');">Press to enter your numbers</button>
+            </div>
+            <div class="stats">
+              <p>Sum: <span class="sum" id="sum">0</span></p>
+            </div>
+
+          </div>
+        </div>
+        <div class="container">
+          <div class="header">
+            <h1>Question 1.2 (WHILE LOOP)</h1>
+            <p>
+              Task: Write a program (similar to the one above) that prints 
+              the maximum (largest) of the numbers typed in, instead 
+              of their sum. 
+            </p>
+          </div>
+          <div class="taskContainer">
+            <div class="taskObjective">
+              <h3>What will happen</h3>
+              <p>
+                Will ask you to input a number 5 times, using a while loop, 
+                then displays the highest number.
+              </p>
+            </div>
+            <div>
+              <button onclick="promptUser('P2');">Press to enter your numbers</button>
+            </div>
+            <div class="stats">
+              <p>Biggest Integer: <span class="biggestInt" id="biggestInt">0</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="header">
+            <h1>Question 1.3 (WHILE LOOP)</h1>
+            <p>
+              Task: Write a program (similar to the above) that prints the 
+              maximum and the sum of the numbers typed in. 
+            </p>
+          </div>
+          <div class="taskContainer">
+            <div class="taskObjective">
+              <h3>What will happen</h3>
+              <p>Will ask you to input a number 5 times, using a while loop, then 
+                display the highest number as well as the sum of all numbers.
+              </p>
+            </div>
+            <div>
+              <button onclick="promptUser('P3');">Press to enter your numbers</button>
+            </div>
+            <div class="stats">
+              <p>Sum: <span class="sumTwo" id="sumTwo">0</span></p>
+              <p>Biggest Integer: <span class="biggestIntTwo" id="biggestIntTwo">0</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
+    
   </body>
 </html>

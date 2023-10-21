@@ -1,0 +1,70 @@
+<div class="bigContainer">
+      <div class="container">
+        <div class="header">
+          <h1>Question 2.2 (FOR LOOP)</h1>
+          <p class="taskDesc">
+            Task: Same as Q1.1 but using a for loop.
+          </p>
+        </div>
+        <div class="taskContainer">
+          <div class="taskObjective">
+            <h3>What will happen</h3>
+            <p>Will ask you to input a number 5 times, using a while loop and display sum of all numbers</p>
+          </div>
+          <div>
+            <button onclick="promptUser('P4');">Press to enter your numbers</button>
+          </div>
+          <div class="stats">
+            <p>Sum: <span class="sumPartTwo" id="sumPartTwo">0</span></p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="header">
+          <h1>Question 2.2 (FOR LOOP)</h1>
+          <p>
+            Task: Same as Q1.2 but using a for loop. 
+          </p>
+        </div>
+        <div class="taskContainer">
+          <div class="taskObjective">
+            <h3>What will happen</h3>
+            <p>
+              Will ask you to input a number 5 times, using a while loop, 
+              then displays the highest number.
+            </p>
+          </div>
+          <div>
+            <button onclick="promptUser('P5');">Press to enter your numbers</button>
+          </div>
+          <div class="stats">
+            <p>Biggest Integer: <span class="biggestIntPartTwo" id="biggestIntPartTwo">0</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header">
+          <h1>Question 2.3 (FOR LOOP)</h1>
+          <p>
+            Task: Same as Q1.3 but using a for loop.
+          </p>
+        </div>
+        <div class="taskContainer">
+          <div class="taskObjective">
+            <h3>What will happen</h3>
+            <p>Will ask you to input a number 5 times, using a while loop, then 
+              display the highest number as well as the sum of all numbers.
+            </p>
+          </div>
+          <div>
+            <button onclick="promptUser('P6');">Press to enter your numbers</button>
+          </div>
+          <div class="stats">
+            <p>Sum: <span class="sumTwoPartTwo" id="sumTwoPartTwo">0</span></p>
+            <p>Biggest Integer: <span class="biggestIntTwoPartTwo" id="biggestIntTwoPartTwo">0</span></p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>

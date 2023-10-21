@@ -6,6 +6,21 @@
 body {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  background:
+      conic-gradient(at 10% 50%,#0000 75%,#000000 0),
+      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(1*32px) calc(3*32px),
+      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(2*32px) calc(1*32px),
+      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(3*32px) calc(4*32px),
+      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(4*32px) calc(2*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#000000 0) 0 calc(4*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(1*32px) calc(2*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(2*32px) 0,
+      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(3*32px) calc(3*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(4*32px) calc(1*32px),
+      rgba(0, 0, 0, 0.21);
+background-size: 160px 160px;
+
 }
  /* formatting of content/containers */
 .bigContainer {
@@ -13,10 +28,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60%;
-  background-color: rgba(161, 157, 152, 0.571);
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
   padding: 30px;
-  border: solid 1px rgb(110, 97, 97);
+  border: solid 5px rgb(0, 0, 0);
   gap: 40px;
   margin: 20px;
 }
@@ -60,4 +75,8 @@ button {
   color: black;
   background-color: white;
   
+}
+
+.taskObjective > p {
+  width: 500px;
 }
