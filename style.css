@@ -6,21 +6,6 @@
 body {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  background:
-      conic-gradient(at 10% 50%,#0000 75%,#000000 0),
-      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(1*32px) calc(3*32px),
-      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(2*32px) calc(1*32px),
-      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(3*32px) calc(4*32px),
-      conic-gradient(at 10% 50%,#0000 75%,#000000 0) calc(4*32px) calc(2*32px),
-      conic-gradient(at 50% 10%,#0000 75%,#000000 0) 0 calc(4*32px),
-      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(1*32px) calc(2*32px),
-      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(2*32px) 0,
-      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(3*32px) calc(3*32px),
-      conic-gradient(at 50% 10%,#0000 75%,#000000 0) calc(4*32px) calc(1*32px),
-      rgba(0, 0, 0, 0.21);
-background-size: 160px 160px;
-
 }
  /* formatting of content/containers */
 .bigContainer {
