@@ -17,6 +17,7 @@ function promptUser(question) {
   if (question === "P1") {
     let count = 0;
     let sum = 0;
+    let runningTotal = "";
 
     // START OF CODE TO BE MARKED FOR Q1.1 -------------------------
     while (count < 5) {
@@ -28,15 +29,19 @@ function promptUser(question) {
       } else if ( userInput >= 0) {
         count++;
         sum = sum + userInput;
+        runningTotal += userInput + " ";
       }
       console.log("Number of iterations: " + count);
       console.log("Total sum of all numbers: " + sum);
+      //
     }
     // END OF CODE TO BE MARKED FOR Q1.1 ---------------------------
 
     // DOM manipulation
     let element = document.getElementById('sum');
     element.innerHTML = sum;
+    let elementTwo = document.getElementById('runningTotal');
+    elementTwo.innerHTML = runningTotal;
   }
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -321,7 +326,9 @@ function showQuestOne() {
       </div>
       <div class="stats">
         <p>Sum: <span class="sum" id="sum">0</span></p>
+        <p>Running Total: <span class="runningTotal" id="runningTotal">0</span></p>
       </div>
+
 
     </div>
   </div>

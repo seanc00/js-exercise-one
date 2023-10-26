@@ -6,6 +6,15 @@
 body {
   display: flex;
   justify-content: center;
+
+  background: 
+      linear-gradient(135deg,#0000 20.5%,#ffffff 0 29.5%,#0000 0) 0 25px,
+      linear-gradient( 45deg,#0000 8%,#ffffff 0 17%, #0000 0 58%) 50px 0,
+      linear-gradient(135deg,#0000 8%,#ffffff 0 17%, #0000 0 58%,#ffffff 0 67%,#0000 0),        
+      linear-gradient( 45deg,#0000 8%,#ffffff 0 17%, #0000 0 58%,#ffffff 0 67%,#0000 0 83%,#ffffff 0 92%,#0000 0),
+      #000000;
+background-size: 100px 100px;
+
 }
  /* formatting of content/containers */
 .bigContainer {
