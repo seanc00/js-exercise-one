@@ -13,7 +13,7 @@
 
 function promptUser(question) {
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // CODE FOR Q1.2
+  // CODE FOR Q1.1
   if (question === "P1") {
     let count = 0;
     let sum = 0;
@@ -125,7 +125,7 @@ function promptUser(question) {
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   // CODE FOR Q2.1
   if (question === "P4") {
-    // START OF CODE TO BE MARKED FOR Q1.1 -------------------------
+    // START OF CODE TO BE MARKED FOR Q2.1 -------------------------
     let count = 0;
     let sum = 0;
 
@@ -142,7 +142,7 @@ function promptUser(question) {
       console.log("Number of iterations: " + count);
       console.log("Total sum of all numbers: " + sum);
     }
-    // END OF CODE TO BE MARKED FOR Q1.1 ---------------------------
+    // END OF CODE TO BE MARKED FOR Q2.1 ---------------------------
 
     // DOM manipulation
     let element = document.getElementById('sumPartTwo');
@@ -157,7 +157,7 @@ function promptUser(question) {
 
     //console.log("P2 works");
 
-    // START OF CODE TO BE MARKED FOR Q1.2 ---------------------------
+    // START OF CODE TO BE MARKED FOR Q2.2 ---------------------------
     let count = 0;
     let biggestInt = 0;
 
@@ -177,7 +177,7 @@ function promptUser(question) {
       console.log("Number of iterations: " + count);
       console.log("Biggest number: " + biggestInt);
     }
-    // END OF CODE TO BE MARKED FOR Q1.2 ---------------------------
+    // END OF CODE TO BE MARKED FOR Q2.2 ---------------------------
 
     // DOM manipulation
     let element = document.getElementById('biggestIntPartTwo');
@@ -191,7 +191,7 @@ function promptUser(question) {
 
     //console.log("P6 works");
 
-    // START OF CODE TO BE MARKED FOR Q1.3 ---------------------------
+    // START OF CODE TO BE MARKED FOR Q2.3 ---------------------------
     let count = 0;
     let biggestInt = 0;
     let sum = 0;
@@ -215,7 +215,7 @@ function promptUser(question) {
       console.log("Total sum of all numbers: " + sum);
       console.log("Biggest number: " + biggestInt);
     }
-    // END OF CODE TO BE MARKED FOR Q1.3 ---------------------------
+    // END OF CODE TO BE MARKED FOR Q2.3 ---------------------------
     
     // DOM manipulation
     let element = document.getElementById('sumTwoPartTwo');
